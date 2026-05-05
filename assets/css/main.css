@@ -2273,7 +2273,7 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), url("Sweating Gold_Showreel_wip_Soundless.mp4");
+		background: url("images/overlay.png"), url("../../Sweating Gold_Showreel_wip_Soundless.mp4");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
