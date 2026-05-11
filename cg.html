@@ -1,5 +1,5 @@
 
-  <!DOCTYPE HTML>
+ <!DOCTYPE HTML>
 <!--
 	Big Picture by HTML5 UP
 	html5up.net | @ajlkn
@@ -12,27 +12,155 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<style>div.gallery {
+  border: 1px solid #ccc;
+}
 
-		<!-- Header -->
+div.galleryt:hover {
+  border: 1px solid #777;
+}
+
+div.galleryt img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsivet {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsivet {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsivet {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+	
+	
+        .video-container1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        video {
+            width: 190%;
+            max-width: 300px;
+        }
+</style>
+	</head>
+			<!-- Header -->
 			<header id="header">
-			<h1>Pauline G.</h1> 
+				<h1>Pauline G.</h1>
 				<nav>
 					<ul>
 							<!--<li><a href="#intro">Intro</a></li>
 					<li><a href="#one">What I Do</a></li>-->
 				
-						<li><a href="https://paulinecgdesign.github.io/pgportfolio/">Home</a></li>
-						<li><a href="https://paulinecgdesign.github.io/pgportfolio/#work">My Work</a></li>
+						<li><a href="#work">My Work</a></li>
+						<li><a href="#two">About</a></li>
 						<!--<li><a href="#contact">Contact</a></li>-->
 					</ul>
 				</nav>
 			</header>
+	
+	<!--images-->
+	<div class="responsivet">
+  <div class="galleryt">
+    <a target="_blank" href="#showreel">
+      <img src="images/Roller_Modelteknik.png" alt="Cinque Terre">
+    </a>
+    <div class="desc">Showreel</div>
+  </div>
+</div>
 
+<div class="responsivet">
+  <div class="galleryt">
+    <a target="_blank" href="#speaker">
+      <img src="images/Roller_Modelteknik.png" alt="speaker">
+    </a>
+    <div class="desc">Speaker</div>
+  </div>
+</div>
 
-			<!-- MAin -->
-			<section id="work" class="main style3 primary">
+<div class="responsivet">
+  <div class="galleryt">
+    <a target="_blank" href="#autochrono">
+      <img src="images/Roller_Modelteknik.png" alt="Northern Lights">
+    </a>
+    <div class="desc">AutoChrono</div>
+  </div>
+</div>
+
+<div class="responsivet">
+  <div class="galleryt">
+    <a target="_blank" href="img_mountains.jpg">
+      <img src="images/Roller_Modelteknik.png" alt="Mountains">
+    </a>
+    <div class="desc">Headphones</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+	
+	
+	<!--Showreel--->
+	 <div style="text-align: center;">
+        <h2>Showreel</h2>
+		 <h1>-</h1>
+    </div>
+    <div class="video-container1">
+        <video controls style="width:200%; 
+                               max-width: 400px;">
+            <source type="video/mp4" src= "Showreel_PaulineG.mp4">
+		</video></div>
+	
+			<!-- Auto Chrono -->
+			<section id="speaker" class="main style3 primary">
+				<div class="content">
+					<header>
+						<h2>Speaker</h2>
+						<p>This project was a mixture of product visualization and later on technical visualization. 
+							I used Autodesk fusion mainly 
+							 </p>
+					</header>
+					
+				<!-- Gallery  -->
+						<div class="gallery">
+								<a href="images/imgA1.png" class="image fit"><img src="images/imgA1.png" title="Auto Chrono" alt="" /></a>
+							
+							
+						</div>
+
+				</div>
+			</section>
+		
+				<!-- Auto Chrono -->
+			<section id="autochrono" class="main style3 primary">
 				<div class="content">
 					<header>
 						<h2>Auto Chrono</h2>
@@ -51,6 +179,24 @@
 
 				</div>
 			</section>
+	
+	<!-- Auto Chrono -->
+			<section id="headphones" class="main style3 primary">
+				<div class="content">
+					<header>
+						<h2>Headphones</h2>
+						<p>This project was a mixture of product visualization and later on technical visualization. 
+							I used Blender for the organic parts and text while I used Autodesk Fusion for the rest. 
+							I also made the strap texture in Blender. The metallic were imported from ambient cg and 
+							the rest were made via nodes in blender. </p>
+					</header>
+					
+				<!-- Gallery  -->
+						<div class="gallery">
+								<a href="images/imgA1.png" class="image fit"><img src="images/imgA1.png" title="Auto Chrono" alt="" /></a>
+							
+							
+						</div>
 
 
 		<!-- Footer -->
@@ -85,5 +231,4 @@
 			<script src="assets/js/main.js"></script>
 
 	</body>
-
 </html>
